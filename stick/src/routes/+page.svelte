@@ -1,6 +1,6 @@
 <script>
-  let name = "";
-  let describe = "";
+  let name = "calcium";
+  let describe = "gay";
 </script>
 
 <div class="flex flex-col items-center px-4 py-4">
