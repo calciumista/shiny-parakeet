@@ -13,9 +13,9 @@
   {:else}
     <h1 class="text-3xl font-bold text-white py-4">{name} is {describe}!</h1>
   {/if}
-  <input bind:value={name} placeholder="enter name!" class="bg-blue-300 text-center rounded-md shadow-md" />
+  <input bind:value={name} placeholder="enter name!" class="bg-blue-300 text-center rounded-md shadow-md border-2 border-blue-200" />
   <div class="py-2" />
-  <input bind:value={describe} placeholder="enter adjective!" class="bg-blue-300 text-center rounded-md shadow-md" />
+  <input bind:value={describe} placeholder="enter adjective!" class="bg-blue-300 text-center rounded-md shadow-md border-2 border-blue-200" />
 </div>
 
 <style lang="postcss">
