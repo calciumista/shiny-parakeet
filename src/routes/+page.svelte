@@ -4,6 +4,10 @@
   import Blox from "./bloxlink.svelte";
 </script>
 
+<svelte:head>
+  <title>calcal.space</title>
+</svelte:head>
+
 <Info />
 <Name />
 <Blox />
