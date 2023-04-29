@@ -1,6 +1,7 @@
 <script>
   import Name from "./name.svelte";
   import Info from "./info.svelte";
+  import Blox from "./bloxlink.svelte";
 </script>
 
 <Info />
