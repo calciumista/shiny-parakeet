@@ -6,6 +6,7 @@
 
 <Info />
 <Name />
+<Blox />
 
 <style lang="postcss">
   :global(html) {
