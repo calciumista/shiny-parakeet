@@ -14,7 +14,7 @@
 </svelte:head>
 
 {#if ready}
-  <div transition:fly={{ y: 600, duration: 1000 }}>
+  <div transition:fly={{ y: 400, duration: 1750 }}>
     <Info />
     <Name />
     <Blox />
