@@ -1,6 +1,6 @@
 <script lang="ts">
   import axios from "axios";
-  let id = "1018551539482230936";
+  let id = "";
   async function lookup() {
     const idInput = document.querySelector("#lookup") as HTMLInputElement | null;
     interface User {
