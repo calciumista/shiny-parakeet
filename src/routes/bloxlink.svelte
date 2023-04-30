@@ -48,5 +48,5 @@
   <div class="py-2" />
   <p id="response" class="text-white bg-blue-300 border-2 border-blue-200 shadow-md text-center hover:scale-105 transition-all duration-200 text-bold px-2 rounded-md">Response here...</p>
   <div class="py-2" />
-  <p class="text-white text-bold font-thin">* Requires account to have an account linked via <a href="https://blox.link" class="font-outline-red">BloxLink</a>.</p>
+  <p class="text-white text-bold text-xs">Requires account to have an account linked via <a href="https://blox.link" class="font-outline-red">BloxLink</a>.</p>
 </div>
