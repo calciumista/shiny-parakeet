@@ -4,6 +4,7 @@
   import Name from "./name.svelte";
   import Info from "./info.svelte";
   import Blox from "./bloxlink.svelte";
+  import Joke from "./joke.svelte";
 
   let ready = false;
   onMount(() => (ready = true));
@@ -18,6 +19,7 @@
     <Info />
     <Name />
     <Blox />
+    <Joke />
   </div>
 {/if}
 
