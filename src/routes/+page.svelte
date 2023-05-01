@@ -5,9 +5,13 @@
   import Info from "./info.svelte";
   import Blox from "./bloxlink.svelte";
   import Joke from "./joke.svelte";
+  import Presence, { getPresence } from "./presence.svelte";
 
   let ready = false;
-  onMount(() => (ready = true));
+  onMount(async () => {
+    ready = true;
+    getPresence();
+  });
 </script>
 
 <svelte:head>
@@ -17,6 +21,7 @@
 {#if ready}
   <div transition:fly={{ y: 400, duration: 1750 }}>
     <Info />
+    <Presence />
     <Name />
     <Blox />
     <Joke />
