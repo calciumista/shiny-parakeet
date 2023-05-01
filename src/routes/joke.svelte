@@ -25,10 +25,10 @@
 <div class="flex flex-col items-center py-4 px-2">
   <h1 class="text-3xl font-bold text-white text-center hover:scale-110 transition-all duration-200 py-2">Grab a Joke!</h1>
   <div class="py-4" />
-  <button on:click={grabJoke} class="bg-blue-300 text-center rounded-md shadow-md border-2 border-blue-200 hover:scale-105 transition-all duration-200 text-white text-bold px-10" id="lookup">Grab Joke!</button>
+  <button on:click={grabJoke} class="blue-border text-bold px-10" id="lookup">Grab Joke!</button>
   <div class="py-2" />
   <div class="border-spacing-4">
-    <div class="bg-blue-300 text-center rounded-md shadow-md border-2 border-blue-200 hover:scale-105 active:scale-105 transition-all duration-200 text-white text-bold px-4">
+    <div class="blue-border px-4">
       <h3 class="text-bold text-xl" id="category">Insert joke here!</h3>
       <div class="py-1" />
       <p class="" id="joke">Insert joke here!</p>
