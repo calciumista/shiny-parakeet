@@ -29,7 +29,7 @@
   <div class="py-2" />
   <div class="border-spacing-4">
     <div class="blue-border px-4">
-      <h3 class="text-bold text-xl" id="category">Insert joke here!</h3>
+      <h3 class="font-bold text-xl" id="category">Insert joke here!</h3>
       <div class="py-1" />
       <p class="" id="joke">Insert joke here!</p>
     </div>

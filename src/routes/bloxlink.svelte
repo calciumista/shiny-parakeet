@@ -41,12 +41,12 @@
   <h1 class="text-3xl font-bold text-white text-center py-2 hover:scale-105 transition-all duration-200">Grab Roblox UserID from someone's Discord ID!</h1>
   <div class="py-2" />
   <div class="flex">
-    <input bind:value={id} placeholder="enter discord id!" class="blue-border text-bold" id="lookup" />
+    <input bind:value={id} placeholder="enter discord id!" class="blue-border" id="lookup" />
     <div class="px-2" />
-    <button on:click={lookup} class="blue-border text-bold px-10" id="lookup"> Look up! </button>
+    <button on:click={lookup} class="blue-border font-semibold px-10" id="lookup"> Look up! </button>
   </div>
   <div class="py-2" />
-  <p id="response" class="blue-border text-bold px-2">Response here...</p>
+  <p id="response" class="blue-border font-bold px-2">Response here...</p>
   <div class="py-2" />
   <p class="text-white text-bold text-xs hover:scale-105 transition-all duration-200">Requires account to have an account linked via <a href="https://blox.link" class="font-outline-red">BloxLink</a>.</p>
 </div>
