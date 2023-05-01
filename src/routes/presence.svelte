@@ -1,5 +1,9 @@
 <script lang="ts" , context="module">
   import axios from "axios";
+  var timer;
+  timer = setInterval(function () {
+    getPresence();
+  }, 20000);
 
   interface Root {
     success: boolean;
