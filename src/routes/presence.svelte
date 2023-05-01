@@ -87,8 +87,8 @@
   }
 </script>
 
-<div class="flex flex-col items-center mx-auto">
-  <div class="blue-border flex max-w-[22.5%]">
+<div class="flex flex-col items-center mx-auto px-2">
+  <div class="blue-border flex md:max-w-[22.5%] max-w-sm">
     <img src="" id="pfp" alt="pfp" class="rounded-full p-2" />
     <div class="px-1" />
     <div class="flex-col text-left my-auto pr-4">
