@@ -17,7 +17,7 @@
       const config = {
         headers: {
           "Content-Type": "application/json",
-          "api-key": process.env.BLOX,
+          "api-key": "6ce19100-2c11-41c7-bd66-c6a769e90064",
         },
       };
       axios.get(`https://v3.blox.link/developer/discord/${idInput.value}`, config).then((response) => {
