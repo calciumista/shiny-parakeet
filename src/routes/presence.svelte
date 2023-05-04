@@ -1,4 +1,4 @@
-<script lang="ts" , context="module">
+<script lang="ts" context="module">
   import axios from "axios";
   var timer;
   timer = setInterval(function () {
@@ -70,22 +70,22 @@
 
   export function getPresence() {
     axios.get("https://api.lanyard.rest/v1/users/1018551539482230936").then((response) => {
-      console.log(response.data);
       const obj: Root = response.data;
-      const name = document.querySelector("#name");
-      const pfp = document.querySelector("#pfp") as HTMLImageElement;
-      const spot = document.querySelector("#song");
-      if (name) {
-        name.innerHTML = obj.data.discord_user.username + "#" + obj.data.discord_user.discriminator;
-      }
-      if (pfp) {
-        pfp.src = "https://cdn.discordapp.com/avatars/" + obj.data.discord_user.id + "/" + obj.data.discord_user.avatar;
-      }
-      if (obj.data.listening_to_spotify) {
-        if (spot) {
-          spot.innerHTML = "Listening to " + obj.data.spotify.song + " by " + obj.data.spotify.artist + ".";
+      if (typeof document !== "undefined") {
+        const name = document.getElementById("name");
+        const pfp = document.getElementById("pfp") as HTMLImageElement;
+        const spot = document.getElementById("song");
+        if (name) {
+          name.innerHTML = obj.data.discord_user.username + "#" + obj.data.discord_user.discriminator;
         }
-      } else {
+        if (pfp) {
+          pfp.src = "https://cdn.discordapp.com/avatars/" + obj.data.discord_user.id + "/" + obj.data.discord_user.avatar;
+        }
+        if (obj.data.listening_to_spotify) {
+          if (spot) {
+            spot.innerHTML = "Listening to " + obj.data.spotify.song + " by " + obj.data.spotify.artist + ".";
+          }
+        }
       }
     });
   }
