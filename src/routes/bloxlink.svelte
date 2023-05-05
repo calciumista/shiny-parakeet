@@ -43,7 +43,7 @@
   <div class="flex">
     <input bind:value={id} placeholder="enter discord id!" class="blue-border" id="lookup" />
     <div class="px-2" />
-    <button on:click={lookup} class="blue-border font-semibold px-10" id="lookup"> Look up! </button>
+    <button on:click={lookup} class="blue-border font-bold px-2" id="lookup"> Look up! </button>
   </div>
   <div class="py-2" />
   <p id="response" class="blue-border font-bold px-2">Response here...</p>
