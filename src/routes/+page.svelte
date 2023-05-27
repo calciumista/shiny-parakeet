@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { fly } from "svelte/transition";
+  import { fly, fade } from "svelte/transition";
   import Name from "./name.svelte";
   import Info from "./info.svelte";
   import Blox from "./bloxlink.svelte";
@@ -19,11 +19,16 @@
 </svelte:head>
 
 {#if ready}
-  <div transition:fly={{ y: 400, duration: 1750 }}>
+  <div transition:fade>
     <Info />
     <Presence />
     <Name />
     <Joke />
+    <!--
+      <div class="flex justify-center py-8 px-1">
+      <a href="/more" class="blue-border px-2">See more...</a>
+    </div>
+-->
   </div>
 {/if}
 
