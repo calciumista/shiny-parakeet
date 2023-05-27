@@ -13,7 +13,7 @@
 </svelte:head>
 
 {#if ready}
-  <div in:fade>
+  <div transition:fade>
     <div class="flex justify-center p-2 px-1">
       <div class="flex-col blue-border">
         <img src="./zumo.gif" class="px-1 pt-1" alt="zumo my beloved" />
