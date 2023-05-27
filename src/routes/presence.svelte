@@ -75,8 +75,21 @@
         const name = document.getElementById("name");
         const pfp = document.getElementById("pfp") as HTMLImageElement;
         const spot = document.getElementById("song");
+        const active = document.getElementById("active");
+
         if (name) {
           name.innerHTML = obj.data.discord_user.username + "#" + obj.data.discord_user.discriminator;
+        }
+        if (active) {
+          if (obj.data.active_on_discord_desktop) {
+            active.innerHTML = "Active on desktop.";
+          }
+          if (obj.data.active_on_discord_mobile) {
+            active.innerHTML = "Active on mobile.";
+          }
+          if (obj.data.active_on_discord_web) {
+            active.innerHTML = "Active on web.";
+          }
         }
         if (pfp) {
           pfp.src = "https://cdn.discordapp.com/avatars/" + obj.data.discord_user.id + "/" + obj.data.discord_user.avatar;
@@ -98,6 +111,7 @@
     <div class="flex-col text-left my-auto pr-4">
       <p class="font-bold" id="name">Name....</p>
       <p id="song" class="">No Spotify Activity.</p>
+      <p id="active">Active on...</p>
     </div>
   </div>
 </div>
