@@ -19,7 +19,7 @@
 </svelte:head>
 
 {#if ready}
-  <div transition:fade>
+  <div>
     <Info />
     <Presence />
     <Name />
