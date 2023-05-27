@@ -23,7 +23,6 @@
     <Info />
     <Presence />
     <Name />
-    <Blox />
     <Joke />
   </div>
 {/if}
