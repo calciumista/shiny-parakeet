@@ -110,8 +110,8 @@
     <div class="px-1" />
     <div class="flex-col text-left my-auto pr-4">
       <p class="font-bold" id="name">Name....</p>
+      <p id="active" class="font-medium">Active on...</p>
       <p id="song" class="">No Spotify Activity.</p>
-      <p id="active">Active on...</p>
     </div>
   </div>
 </div>
