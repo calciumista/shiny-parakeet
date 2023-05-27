@@ -15,6 +15,9 @@
 {#if ready}
   <div in:fade>
     <div class="flex justify-center p-2 px-1">
+      <p class="blue-border px-2">i love zumo</p>
+    </div>
+    <div class="flex justify-center p-2 px-1">
       <a href="/" class="blue-border px-2">Go back... </a>
     </div>
   </div>

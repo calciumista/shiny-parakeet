@@ -24,11 +24,10 @@
     <Presence />
     <Name />
     <Joke />
-    <!--
-      <div class="flex justify-center py-8 px-1">
+
+    <div class="flex justify-center py-8 px-1">
       <a href="/more" class="blue-border px-2">See more...</a>
     </div>
--->
   </div>
 {/if}
 
