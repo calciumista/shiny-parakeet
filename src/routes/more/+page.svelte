@@ -14,12 +14,12 @@
 {#if ready}
   <div>
     <div class="flex justify-center p-2 px-1">
-      <div class="flex">
+      <div class="md:flex">
         <div class="flex-col blue-border">
           <img src="./zumo.gif" class="px-1 pt-1 rounded-md w-96 h-64" alt="zumo my beloved" />
           <p class="font-bold px-2">i love zumo</p>
         </div>
-        <div class="px-4" />
+        <div class="p-4" />
         <div class="flex-col blue-border">
           <img src="./mrshitty.png" class="px-1 pt-1 rounded-md w-96 h-64" alt="zumo my beloved" />
           <p class="font-bold px-2">mr shitty</p>
