@@ -20,7 +20,6 @@
 
 {#if ready}
   <div>
-    <Info />
     <Presence />
     <Name />
     <Joke />
