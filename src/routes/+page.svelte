@@ -20,6 +20,7 @@
 
 {#if ready}
   <div>
+    <div class="py-2" />
     <Presence />
     <Name />
     <Joke />
