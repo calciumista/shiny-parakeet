@@ -26,13 +26,26 @@
         </div>
       </div>
     </div>
-    <p class="text-center text-white font-bold text-xl">i luv zuot (no homo)</p>
-    <p class="text-center text-white font-bold py-2">best femboy go to slasha (smash)</p>
-    <!--
-          <div class="flex justify-center p-2 px-1">
-      <a href="/main" class="blue-border px-2">Go back... </a>
+    <div class="flex justify-center p-2 px-1">
+      <div class="md:flex">
+        <div class="flex-col blue-border">
+          <img src="/gayassfemboy.jpg" class="px-1 pt-1 rounded-md w-96 h-64" alt="zumo my beloved" />
+          <p class="font-bold px-2">daddy salsa (best femboy)</p>
+        </div>
+        <div class="p-4" />
+        <div class="flex-col blue-border">
+          <video width="384" height="256" class="px-1 pt-1 rounded-md w-96 h-64" controls>
+            <source src="/zumorr.mp4" type="video/mp4" />
+          </video>
+          <p class="font-bold px-2">zuotia (lov u no homo)</p>
+        </div>
+      </div>
     </div>
-    -->
+    <!--
+        <div class="flex justify-center p-2 px-1">
+    <a href="/main" class="blue-border px-2">Go back... </a>
+  </div>
+  -->
   </div>
 {/if}
 
