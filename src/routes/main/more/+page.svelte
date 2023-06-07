@@ -27,6 +27,7 @@
       </div>
     </div>
     <p class="text-center text-white font-bold text-xl">i luv zuot (no homo)</p>
+    <p class="text-center text-white font-bold py-2">best femboy go to slasha (smash)</p>
     <!--
           <div class="flex justify-center p-2 px-1">
       <a href="/main" class="blue-border px-2">Go back... </a>
