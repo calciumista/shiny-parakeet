@@ -26,6 +26,7 @@
         </div>
       </div>
     </div>
+    <p class="text-center text-white font-bold text-xl">i luv zuot (no homo)</p>
     <!--
           <div class="flex justify-center p-2 px-1">
       <a href="/main" class="blue-border px-2">Go back... </a>
