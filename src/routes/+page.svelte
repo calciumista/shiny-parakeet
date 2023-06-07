@@ -7,7 +7,7 @@
     <div class="hero-content text-center flex-col">
       <h1 class="text-4xl text-neutral">calcal.space</h1>
       <h2 class="py-2 text-xl">Your one stop shop for Calcium! 🥛</h2>
-      <a class="blue-border" href="/main">Enter</a>
+      <a class="btn btn-secondary" href="/main">Enter</a>
     </div>
   </div>
 </div>
