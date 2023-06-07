@@ -37,7 +37,7 @@
           <video width="384" height="256" class="px-1 pt-1 rounded-md w-96 h-64" controls>
             <source src="/zumorr.mp4" type="video/mp4" />
           </video>
-          <p class="font-bold px-2">zuotia (lov u no homo)</p>
+          <p class="font-bold px-2">zuot (lov u no homo)</p>
         </div>
       </div>
     </div>
