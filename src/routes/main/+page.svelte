@@ -36,7 +36,7 @@
   @import url("https://fonts.cdnfonts.com/css/sf-ui-text-2");
 
   :global(html) {
-    background-color: theme(colors.blue.300);
+    background-color: theme(colors.blue.400);
     font-family: "SF UI Text", sans-serif;
   }
 </style>
