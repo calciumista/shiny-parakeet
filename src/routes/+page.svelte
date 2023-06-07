@@ -1,41 +1,18 @@
 <script>
-  import { onMount } from "svelte";
-  import { fly, fade } from "svelte/transition";
-  import Name from "./name.svelte";
-  import Info from "./info.svelte";
-  import Blox from "./bloxlink.svelte";
-  import Joke from "./joke.svelte";
-  import Presence, { getPresence } from "./presence.svelte";
-
-  let ready = false;
-  onMount(async () => {
-    ready = true;
-    getPresence();
-  });
+  import { twemoji } from "svelte-twemoji";
 </script>
 
 <svelte:head>
-  <title>calcal.space</title>
+  <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8" />
 </svelte:head>
 
-{#if ready}
-  <div>
-    <div class="py-2" />
-    <Presence />
-    <Name />
-    <Joke />
-
-    <div class="flex justify-center py-8 px-1">
-      <a href="/more" class="blue-border px-2">See more...</a>
+<div>
+  <div class="hero min-h-screen bg-blue-300">
+    <div class="hero-content text-center flex-col">
+      <h1 class="text-4xl text-neutral">calcal.space</h1>
+      <h2 class="py-2 text-xl" use:twemoji>Your one stop shop for Calcium! 🥛</h2>
+      <a class="btn btn-secondary" href="/main">Enter</a>
     </div>
   </div>
-{/if}
-
-<style lang="postcss">
-  @import url("https://fonts.cdnfonts.com/css/sf-ui-text-2");
-
-  :global(html) {
-    background-color: theme(colors.blue.400);
-    font-family: "SF UI Text", sans-serif;
-  }
-</style>
+</div>

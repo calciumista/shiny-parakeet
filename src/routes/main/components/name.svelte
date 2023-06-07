@@ -1,5 +1,4 @@
 <script>
-  import "../app.css";
   let name = "calcium";
   let describe = "the best svelte coder ever";
 </script>
