@@ -26,9 +26,11 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-center p-2 px-1">
+    <!--
+          <div class="flex justify-center p-2 px-1">
       <a href="/main" class="blue-border px-2">Go back... </a>
     </div>
+    -->
   </div>
 {/if}
 
