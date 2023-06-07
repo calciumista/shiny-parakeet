@@ -5,6 +5,7 @@
   import Info from "./components/info.svelte";
   import Joke from "./components/joke.svelte";
   import Presence, { getPresence } from "./components/presence.svelte";
+  import { base } from "$app/paths";
 
   let ready = false;
   onMount(async () => {
@@ -26,7 +27,7 @@
     <Joke />
 
     <div class="flex justify-center py-8 px-1">
-      <a href="/main/more" class="blue-border px-2">See more...</a>
+      <a href="{base}/more" class="blue-border px-2">See more...</a>
     </div>
   </div>
 {/if}
