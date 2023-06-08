@@ -34,7 +34,7 @@
         </div>
         <div class="p-4" />
         <div class="flex-col blue-border">
-          <video width="384" height="256" class="px-1 pt-1 rounded-md w-96 h-64" controls>
+          <video width="384" height="256" class="px-1 pt-1 rounded-md w-96 h-64" controls autoplay playsinline muted>
             <source src="/zumorr.mp4" type="video/mp4" />
           </video>
           <p class="font-bold px-2">zuot (lov u no homo)</p>
