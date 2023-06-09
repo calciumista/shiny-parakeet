@@ -5,6 +5,7 @@
   import Info from "./components/info.svelte";
   import Joke from "./components/joke.svelte";
   import Presence, { getPresence } from "./components/presence.svelte";
+  import Insult from "./components/insult.svelte";
   import { base } from "$app/paths";
 
   let ready = false;
@@ -25,6 +26,7 @@
     <Presence />
     <Name />
     <Joke />
+    <Insult />
 
     <div class="flex justify-center py-8 px-1">
       <a href="{base}/main/more" class="blue-border px-2">See more...</a>
