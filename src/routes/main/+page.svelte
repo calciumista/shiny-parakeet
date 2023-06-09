@@ -26,7 +26,6 @@
     <Presence />
     <Name />
     <Joke />
-    <Insult />
 
     <div class="flex justify-center py-8 px-1">
       <a href="{base}/main/more" class="blue-border px-2">See more...</a>
