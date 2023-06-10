@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import Saos from "saos";
   import { fly, fade } from "svelte/transition";
   import Name from "./components/name.svelte";
   import Info from "./components/info.svelte";
@@ -11,8 +12,8 @@
 
   let ready = false;
   onMount(async () => {
-    ready = true;
     getPresence();
+    ready = true;
   });
 </script>
 
@@ -23,17 +24,19 @@
 
 {#if ready}
   <div>
-    <Message />
-    <div class="py-4" />
-    <Presence />
-    <div class="py-6" />
-    <Name />
-    <div class="py-6" />
-    <Joke />
+    <Saos animation={"scale-in-center 0.225s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}>
+      <Message />
+      <div class="py-4" />
+      <Presence />
+      <div class="py-6" />
+      <Name />
+      <div class="py-6" />
+      <Joke />
 
-    <div class="flex justify-center py-8 px-1">
-      <a href="{base}/main/more" class="blue-border px-2">See more...</a>
-    </div>
+      <div class="flex justify-center py-8 px-1">
+        <a href="{base}/main/more" class="blue-border px-2">See more...</a>
+      </div>
+    </Saos>
   </div>
 {/if}
 
@@ -43,5 +46,41 @@
   :global(html) {
     background-color: theme(colors.blue.400);
     font-family: "SF UI Text", sans-serif;
+  }
+  @keyframes -global-from-left {
+    0% {
+      transform: rotateX(50deg) translateX(-200vw) skewX(-50deg);
+      opacity: 1;
+    }
+    100% {
+      transform: rotateX(0deg) translateX(0) skewX(0deg);
+      opacity: 1;
+    }
+  }
+
+  @keyframes -global-scale-in-ver-center {
+    0% {
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes -global-scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 </style>
