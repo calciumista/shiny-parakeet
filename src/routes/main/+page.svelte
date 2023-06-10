@@ -7,6 +7,7 @@
   import Presence, { getPresence } from "./components/presence.svelte";
   import Insult from "./components/insult.svelte";
   import { base } from "$app/paths";
+  import Message from "./components/mots.svelte";
 
   let ready = false;
   onMount(async () => {
@@ -22,7 +23,7 @@
 
 {#if ready}
   <div>
-    <div class="py-2" />
+    <Message />
     <Presence />
     <Name />
     <Joke />
