@@ -35,6 +35,7 @@
       <div class="py-6" />
 
       <audio src="/swift.mp3" autoplay class="audio-1" id="auto" controls />
+      <h6 class="text-white text-center text-lg font-semibold py-1">and you wanna scream dont call me kid dont call me baby...</h6>
 
       <div class="flex justify-center py-8 px-1">
         <a href="{base}/main/more" class="blue-border px-2">See more...</a>
