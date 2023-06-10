@@ -24,8 +24,11 @@
 {#if ready}
   <div>
     <Message />
+    <div class="py-4" />
     <Presence />
+    <div class="py-6" />
     <Name />
+    <div class="py-6" />
     <Joke />
 
     <div class="flex justify-center py-8 px-1">
