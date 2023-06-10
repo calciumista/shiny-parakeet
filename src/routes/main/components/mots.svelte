@@ -3,7 +3,7 @@
 
   onMount(async () => {
     const message = document.getElementById("random");
-    let messages = ["taylor is the best!!", "#killkanye", "hippapotomous 🦛", "speak now tv out soon!!", "i love taylor swift", "there was a tinder match in antartica once. 😱"];
+    let messages = ["taylor is the best!!", "#killkanye", "hippapotomous 🦛", "speak now tv out soon!!", "i love taylor swift", "there was a tinder match in antarctica once. 😱"];
     var randomItem = messages[Math.floor(Math.random() * messages.length)];
 
     console.log(randomItem);
