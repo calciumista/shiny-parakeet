@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { onMount } from "svelte";
   import Saos from "saos";
   import { fly, fade } from "svelte/transition";
@@ -32,6 +32,9 @@
       <Name />
       <div class="py-6" />
       <Joke />
+      <div class="py-6" />
+
+      <audio src="/swift.mp3" autoplay class="audio-1" id="auto" controls />
 
       <div class="flex justify-center py-8 px-1">
         <a href="{base}/main/more" class="blue-border px-2">See more...</a>
@@ -82,5 +85,50 @@
       transform: scale(1);
       opacity: 1;
     }
+  }
+
+  audio::-webkit-media-controls-panel {
+    background-color: #56aeff;
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #fff;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  audio::-webkit-media-controls-timeline {
+    background-color: #fff;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  audio::-webkit-media-controls-time-remaining-display {
+    color: #fff;
+  }
+
+  audio::-webkit-media-controls-current-time-display {
+    color: #fff;
+  }
+
+  audio::-webkit-media-controls-play-button {
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: #fff;
+  }
+
+  audio::-webkit-media-controls-mute-button {
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  .audio-1 {
+    display: table;
+    margin: 0 auto;
   }
 </style>
