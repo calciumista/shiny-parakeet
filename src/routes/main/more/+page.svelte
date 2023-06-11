@@ -41,6 +41,14 @@
         </div>
       </div>
     </div>
+    <div class="flex justify-center p-2 px-1">
+      <div class="md:flex">
+        <div class="flex-col blue-border">
+          <img src="/uglycar.jpg" class="px-1 pt-1 rounded-md w-96 h-64" alt="carsexual" />
+          <p class="font-bold px-2">some carsexual called raisin</p>
+        </div>
+      </div>
+    </div>
     <!--
         <div class="flex justify-center p-2 px-1">
     <a href="/main" class="blue-border px-2">Go back... </a>
