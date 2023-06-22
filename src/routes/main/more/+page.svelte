@@ -44,8 +44,8 @@
     <div class="flex justify-center p-2 px-1">
       <div class="md:flex">
         <div class="flex-col blue-border">
-          <img src="/uglycar.jpg" class="px-1 pt-1 rounded-md w-96 h-64" alt="carsexual" />
-          <p class="font-bold px-2">some carsexual called raisin</p>
+          <img src="/reptile.jpg" class="px-1 pt-1 rounded-md w-96 h-64" alt="zumo my beloved" />
+          <p class="font-bold px-2">reptilian</p>
         </div>
       </div>
     </div>
@@ -56,6 +56,7 @@
   -->
   </div>
 {/if}
+
 <!--aidahjdjha-->
 
 <style lang="postcss">
