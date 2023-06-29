@@ -47,6 +47,10 @@
           <img src="/reptile.jpg" class="px-1 pt-1 rounded-md w-96 h-64" alt="zumo my beloved" />
           <p class="font-bold px-2">reptilian</p>
         </div>
+        <div class="flex-col blue-border">
+          <img src="/razrcar.jpg" class="px-1 pt-1 rounded-md w-96 h-64" alt="zumo my beloved" />
+          <p class="font-bold px-2">rapecar</p>
+        </div>
       </div>
     </div>
     <!--
