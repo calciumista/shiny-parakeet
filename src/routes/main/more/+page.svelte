@@ -50,7 +50,7 @@
         <div class="p-4" />
         <div class="flex-col blue-border">
           <img src="/razrcar.jpg" class="px-1 pt-1 rounded-md w-96 h-64" alt="zumo my beloved" />
-          <p class="font-bold px-2">rapecar</p>
+          <p class="font-bold px-2">racar</p>
         </div>
       </div>
     </div>
