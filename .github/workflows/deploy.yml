@@ -17,23 +17,23 @@ jobs:
       #   with:
       #     version: 8
 
-      - name: Install Node.js
+      - name: 📦 Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: npm
 
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: npm install
 
-      - name: build
+      - name: 🧱 build
         env:
           BASE_PATH: "/shiny-parakeet"
         run: |
           npm run build
           touch build/.nojekyll
 
-      - name: Upload Artifacts
+      - name: 👆🏻 Upload Artifacts
         uses: actions/upload-pages-artifact@v1
         with:
           # this should match the `pages` option in your adapter-static options
@@ -52,6 +52,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Deploy
+      - name: 🖐🏻 Deploy
         id: deployment
         uses: actions/deploy-pages@v1
