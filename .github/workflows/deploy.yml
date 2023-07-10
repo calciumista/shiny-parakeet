@@ -8,7 +8,7 @@ jobs:
   build_site:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: ✅ Checkout
         uses: actions/checkout@v3
 
       # If you're using pnpm, add this step then change the commands and cache key below to use `pnpm`
@@ -26,7 +26,7 @@ jobs:
       - name: 📦 Install dependencies
         run: npm install
 
-      - name: 🧱 build
+      - name: 🧱 Build
         env:
           BASE_PATH: "/shiny-parakeet"
         run: |
