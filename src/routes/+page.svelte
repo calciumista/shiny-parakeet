@@ -1,13 +1,17 @@
-<script lang="ts">
+<script>
   import { base } from "$app/paths";
 </script>
 
-<div class="hero justify-center min-h-screen">
-  <div class="hero-content text-center">
-    <div class="max-w-md">
-      <h1 class="text-primary text-xl font-bold pt-2">calcal.space</h1>
-      <p class="p-2 text-secondary">the best place for... calcium! :3</p>
-      <a href="{base}/main" class="btn btn-primary">Get Started</a>
+<svelte:head>
+  <meta charset="utf-8" />
+</svelte:head>
+
+<div>
+  <div class="hero min-h-screen bg-blue-400">
+    <div class="hero-content text-center flex-col text-white font-bold">
+      <h1 class="text-4xl text-white font-bold">calcal.space</h1>
+      <h2 class="py-2 text-xl">Your one stop shop for Calcium! 🥛</h2>
+      <a class="btn btn-secondary" href="{base}/main">Enter</a>
     </div>
   </div>
 </div>

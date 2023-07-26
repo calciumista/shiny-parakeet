@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .font-outline-black {
+      -webkit-text-stroke: 0.15px black;
+    }
+    .font-outline-blue {
+      -webkit-text-stroke: 0.15px blue;
+    }
+    .font-outline-red {
+      -webkit-text-stroke: 0.08px red;
+    }
+    .blue-border {
+      @apply bg-blue-300 text-center rounded-md shadow-md border-2 border-blue-200 hover:scale-105 active:scale-105 transition-all duration-200 text-white;
+    }
+    .h1 {
+      @apply text-3xl font-bold text-white text-center py-2 hover:animate-bounce transition-all duration-75
+    }
+}

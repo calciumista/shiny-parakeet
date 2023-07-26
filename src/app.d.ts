@@ -1,11 +1,13 @@
 // See https://kit.svelte.dev/docs/types#app
 // for information about these interfaces
+import * as dotenv from 'dotenv';
+dotenv.config();
+
 declare global {
 	namespace App {
-		// interface Error {}
-		// interface Locals {}
-		// interface PageData {}
-		// interface Platform {}
+		interface ProcessEnv {
+			BLOX: string;
+		}
 	}
 }
 
