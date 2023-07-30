@@ -12,7 +12,7 @@ const config = {
 			fallback: '200.html'
 		}),
 		paths: {
-			base: dev ? '' : process.env.BASE_PATH,
+
 		}
 	},
 	preprocess: vitePreprocess()
