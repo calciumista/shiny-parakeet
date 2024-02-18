@@ -21,7 +21,7 @@
     </svg>
   </div>
   <Work />
-  <p class="p-4 text-center">calcal.space 2023</p>
+  <p class="p-4 text-center">calcal.space 2024</p>
 </div>
 
 <style lang="postcss">
